@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Elementi in vendita</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Libertinus+Serif:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap" rel="stylesheet">
+</head>
+
+
+
+
+<style>
+
+body {
+    background-color: #222831;
+    transition: transform 0.3s, background 0.3s;
+}
+
+
+.box {
+   display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+   gap: 30px;
+   place-items: center;
+   place-content: center;
+   transition: transform 0.3s, background 0.3s;
+   
+}
+
+.box *{
+   
+    color: white;
+  font-family: "Libertinus Serif", serif;
+  font-weight: 400px;
+  font-style: normal;
+  text-transform: uppercase;
+  text-decoration: none;
+  height: 200px;
+  width: 200px;
+  text-align: center;
+  border-radius: 20%;
+  transition: transform 0.3s, background 0.3s;
+}
+
+
+.trend {
+    font-size: 2rem;
+    font-weight: bold; 
+    color: white;
+    font-family: "Libertinus Serif", serif;
+    text-transform: uppercase;
+    text-align: center;
+    position: absolute;
+       width: 100%;
+   top: 0;
+   left: 50px;
+   transition: transform 0.3s, background 0.3s;
+}
+
+footer {
+    color: white;
+    clear: top;
+    margin-top: 25%;
+
+}
+
+.logo{
+    height: 100px;
+    width: 100px;
+    border-radius: 20%;
+}
+</style>
+
+
+
+<body>
+<div class="titolo">
+   <img class="logo" src="./Logo.jpg">
+    <div class="trend"><h2>new trend</h2></div>
+</div>
+
+
+
+
+   <div class="contenitore">
+
+    <div class="box">
+        <div class="nuovo shampo"><a href="shampo.html"><img class="shampo" src="./1000129802.jpg">shampoo</a></div>
+        <div class="nuovo balsamo"><img class="balsamo" src="./1000129811.jpg">balsamo</div>
+        <div class="nuovo schiuma"><img class="schiuma" src="./1000129814.jpg">schiuma</div>
+
+    </div>
+
+
+</div>
+<footer><p>Copyright 2025. Naboo Beauty Cosmetic all rights reserved</p></footer>
+
+
+    
+</body>
+</html>
